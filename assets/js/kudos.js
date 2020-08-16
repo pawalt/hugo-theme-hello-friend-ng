@@ -73,6 +73,7 @@ function addKudos(uuid, postName) {
       post: postName,
       user: uuid
     },
+    mimeType: 'application/json; charset=utf-8',
     async: false
   });
 }
@@ -85,6 +86,7 @@ function kudosCheck(uuid, postName) {
       post: postName,
       user: uuid
     },
+    mimeType: 'application/json; charset=utf-8',
     async: false
   });
   return JSON.parse(response.responseText);

@@ -59,4 +59,18 @@ $dotMargin: ($filledSize - $dotSize) / 2;
 .kudosRing.filled {
   border-color: seagreen;
 }
+
+// CODE BLOCK STUFF
+
+.highlight-wrapper {
+    position: relative;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.highlight-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
   
