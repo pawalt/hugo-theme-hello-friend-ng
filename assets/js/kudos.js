@@ -1,5 +1,5 @@
 $(() => {
-  if (window.location.pathname.startsWith("/posts")) {
+  if (window.location.pathname.startsWith("/posts") || window.location.pathname.startsWith("/recipes")) {
     startKudos();
   }
 })
